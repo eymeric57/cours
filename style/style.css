@@ -1,0 +1,60 @@
+body{
+    background-color: #d7daff;
+    color: #222;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #222;
+    color: #d7daff;
+}
+
+.logo{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+}
+
+    nav a{
+        flex-grow: 1;
+        border: 1px solid #d7daff;
+        font-size: 18px;
+        padding: 15px;
+        /* justification du texte */
+        text-align: center;
+        /* Modifie la casse de la typo */
+        text-transform: uppercase;
+        /* */
+        transition: background 500ms,color 500ms;
+    }
+
+/* focus : état lorsque le lien est actvé
+hover: passage de la souris
+active : lorsqu'onmaintient le clic */
+
+        nav a:hover,
+        nav a:focus,
+        nav a:active{
+            background-color: #d7daff;
+            color: #222;
+        }
+
+footer{
+    background-color: #222;
+    color: #d7daff;
+    padding: 15px;
+}
+    footer a {
+        font-weight: bold;
+    }
+    footer a:hover,
+    footer a:focus,
+    footer a:active{
+        background-color: #d7daff;
+        color: #222;
+    }
