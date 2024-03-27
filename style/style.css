@@ -28,7 +28,7 @@ nav{
         /* justification du texte */
         text-align: center;
         /* Modifie la casse de la typo */
-        text-transform: uppercase;
+        text-transformff: uppercase;
         /* */
         transition: background 500ms,color 500ms;
     }
